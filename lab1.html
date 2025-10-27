@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sedoijab — массажный салон</title>
+    <meta name="description" content="Расслабляющий и лечебный массаж. Запись онлайн, цены и контакты.">
+    <link rel="stylesheet" href="docs/styles.css">
+</head>
+<body class="page page_theme-light">
+
+<header class="header">
+    <h1 class="header__title">Sedoijab — массажный салон</h1>
+
+    <nav class="nav" aria-label="Основное меню">
+        <ul class="nav__list">
+            <li class="nav__item"><a class="nav__link" href="#hero">Главная</a></li>
+            <li class="nav__item"><a class="nav__link" href="#services">Услуги</a></li>
+            <li class="nav__item"><a class="nav__link" href="#prices">Цены</a></li>
+            <li class="nav__item"><a class="nav__link" href="#about">О нас</a></li>
+            <li class="nav__item"><a class="nav__link" href="#contacts">Контакты</a></li>
+            <li class="nav__item"><a class="nav__link nav__link_cart" href="#cart">Корзина</a></li>
+        </ul>
+    </nav>
+
+    <aside class="header__aside">
+        <p class="meta"><strong>Время работы:</strong> пн–сб
+            с <time datetime="09:00">09:00</time> до <time datetime="21:00">21:00</time>.
+        </p>
+        <p class="meta"><strong>Телефон:</strong> <a class="link" href="tel:+79991234567">+7 999 123-45-67</a></p>
+    </aside>
+</header>
+
+<main id="hero" role="main" class="main">
+    <section class="hero" aria-labelledby="hero-title">
+        <h2 id="hero-title" class="hero__title">Расслабляющий и лечебный массаж в центре города</h2>
+
+        <figure class="figure">
+            <img class="figure__img" src="docs/banner.png" alt="Баннер/фото для шапки сайта">
+            <figcaption class="figure__cap">Добро пожаловать в Sedoijab</figcaption>
+        </figure>
+
+        <p class="lead">
+            Мы уделяем <em>внимание деталям</em> и используем только бережные техники.
+            Для постоянных гостей действует <strong>бонусная программа</strong>.
+            Также доступна <b>онлайн-запись</b> без звонка администратору.
+        </p>
+
+        <p><a class="btn" href="#booking">Записаться онлайн</a></p>
+    </section>
+
+    <section id="services" class="section" aria-labelledby="services-title">
+        <h2 id="services-title" class="section__title">Популярные услуги</h2>
+
+        <article class="card">
+            <h3 class="card__title">Классический массаж</h3>
+            <p class="card__text">Снимает напряжение, улучшает кровообращение и сон.</p>
+            <ul class="list">
+                <li>Длительность: 60 минут</li>
+                <li>Зоны: спина, шея, плечи</li>
+                <li>Эффект: ощущение лёгкости</li>
+            </ul>
+        </article>
+
+        <article class="card">
+            <h3 class="card__title">Спортивный массаж</h3>
+            <p class="card__text">Подходит после тренировок; <i>интенсивные приёмы</i> для восстановления.</p>
+            <ul class="list">
+                <li>Длительность: 45–90 минут</li>
+                <li>Работа с триггерными точками</li>
+                <li>Результат: ускорение восстановления</li>
+            </ul>
+        </article>
+
+        <article class="card">
+            <h3 class="card__title">Лимфодренажный массаж</h3>
+            <p class="card__text">Мягкая техника для уменьшения отёков и ощущения тяжести.</p>
+            <ul class="list">
+                <li>Длительность: 60 минут</li>
+                <li>Щадящая методика</li>
+                <li>Подходит при сидячем образе жизни</li>
+            </ul>
+        </article>
+
+        <aside class="note">
+            <h4 class="note__title">Подарочные сертификаты</h4>
+            <p>Хороший способ порадовать близких.
+                <ins>Новые дизайны доступны круглый год.</ins>
+            </p>
+        </aside>
+    </section>
+
+    <section id="prices" class="section" aria-labelledby="prices-title">
+        <h2 id="prices-title" class="section__title">Цены и акции</h2>
+        <ul class="prices">
+            <li>Классический массаж, 60 мин — <del>3 000 ₽</del> <ins>2 700 ₽</ins></li>
+            <li>Спортивный массаж, 60 мин — 3 500 ₽</li>
+            <li>Лимфодренажный массаж, 60 мин — 3 200 ₽</li>
+        </ul>
+        <p class="hint"><strong>Важно:</strong> на первый визит действует <em>скидка 10%</em>.</p>
+    </section>
+
+    <section id="booking" class="section" aria-labelledby="booking-title">
+        <h2 id="booking-title" class="section__title">Как записаться</h2>
+        <ol class="steps">
+            <li>Выберите услугу или позвоните администратору.</li>
+            <li>Укажите удобные дату и время, оставьте контакты.</li>
+            <li>Получите подтверждение и приходите за 5–10 минут до начала.</li>
+        </ol>
+        <p><a class="btn btn_alt" href="#contacts">Связаться с нами</a></p>
+    </section>
+
+    <section id="about" class="section" aria-labelledby="about-title">
+        <h2 id="about-title" class="section__title">О нас</h2>
+        <article class="text">
+            <p>
+                Салон <strong>Sedoijab</strong> — команда сертифицированных специалистов.
+                Мы работаем бережно и соблюдаем гигиенические стандарты.
+            </p>
+            <blockquote class="quote" cite="https://example.com/reviews">
+                «Лучший массаж, что я пробовал: профессионально, ненавязчиво и с ощутимым эффектом».
+                <br><cite>— Артём С., гость салона</cite>
+            </blockquote>
+        </article>
+    </section>
+
+    <section id="gallery" class="section" aria-labelledby="gallery-title">
+        <h2 id="gallery-title" class="section__title">Галерея</h2>
+        <div class="gallery-grid">
+            <img class="gallery-item" src="docs/jaba1.jpg" alt="">
+            <img class="gallery-item" src="docs/jaba2.jpg" alt="">
+            <img class="gallery-item" src="docs/jaba3.jpg" alt="">
+            <img class="gallery-item" src="docs/jaba4.jpg" alt="">
+        </div>
+    </section>
+
+    <section id="schedule" class="section" aria-labelledby="schedule-title">
+        <h2 id="schedule-title" class="section__title">Расписание</h2>
+        <div class="table-wrapper">
+            <table class="responsive-table">
+                <thead>
+                <tr>
+                    <th>Услуга</th>
+                    <th>Пн–Ср</th>
+                    <th>Чт–Сб</th>
+                    <th>Воскресенье</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>Классический массаж</td>
+                    <td>10:00-16:50</td><td>15:00-19:00</td>
+                    <td>8:50-10:00</td>
+                </tr>
+                <tr>
+                    <td>Спортивный массаж</td>
+                    <td>8:00-18:00</td>
+                    <td>8:00-17:00</td>
+                    <td>6:50-7:00</td>
+                </tr>
+                <tr><td>Лимфодер.. лимфодредаж.. массаж</td>
+                    <td>завтра</td>
+                    <td>завтра</td>
+                    <td>ох, ладно</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+</main>
+
+<footer id="contacts" class="footer">
+    <section class="footer__col">
+        <h2 class="footer__title">Контакты</h2>
+        <address class="address">
+            г. Барнаул, ул. Тёплая, 10<br>
+            Тел.: <a class="link" href="tel:+79991234567">+7 999 123-45-67</a><br>
+            E-mail: <a class="link" href="mailto:hello@calmtouch.example">hello@calmtouch.example</a>
+        </address>
+    </section>
+
+    <section class="footer__col">
+        <h2 class="footer__title">Навигация</h2>
+        <ul class="footer__nav">
+            <li><a class="link" href="#services">Услуги</a></li>
+            <li><a class="link" href="#prices">Цены</a></li>
+            <li><a class="link" href="#about">О нас</a></li>
+            <li><a class="link" href="#booking">Запись</a></li>
+        </ul>
+    </section>
+
+    <section class="footer__col">
+        <h2 class="footer__title">Юридическая информация</h2>
+        <p><small>© 2025 Sedoijab. Все права защищены.</small></p>
+    </section>
+
+    <div class="footer__promo banner-wide"></div>
+</footer>
+
+<section id="cart" class="cart">
+    <h2 class="section__title">Корзина</h2>
+    <p>Функционал корзины будет добавлен позже.</p>
+</section>
+
+<a href="#booking" class="btn-floating" aria-label="Быстрая запись"></a>
+
+</body>
+</html>
